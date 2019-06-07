@@ -1,6 +1,6 @@
 # project
 package filewritingreading;
-
+import org.log4j.Logger;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ public class CreateJSONFile {
 
  public static void main(String[] args) throws JSONException 
 	{
-	
+	Logger i=Logger.getLogger("info function");
 	    JSONObject obj=new JSONObject();
 		obj.put("Student Name", "subha");
 		obj.put("Email", "subhasri@gmail.com");
@@ -42,7 +42,7 @@ public class CreateJSONFile {
 			e.printStackTrace();
 		}
 		
-		System.out.println(obj);
+		logger.info(obj);
 	}
 }
 
