@@ -1,10 +1,12 @@
 import org.Log4j.Logger;
 class BasicConfig
 {
-	final static Logger logger=Logger.getLogger(BasicConfig.class);
 
 	public static void main(String []args)
+
+
 	{
+   Logger l=Logger.getLogger("BasicConfig.class");
 		BasicConfigurator.Configure();
 
 		logger.debug("Sample of debug message");
