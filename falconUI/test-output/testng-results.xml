@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable sample is: sample]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [sample]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.falconUI.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Unable to locate Popup to switch [Ljava.lang.StackTraceElement;@498a153]]>
+    </line>
+    <line>
+      <![CDATA[No such element found with xpath //div[@id="js_1b"]]]>
+    </line>
+    <line>
+      <![CDATA[No such element found with xpath //div[@id="js_1b"]]]>
+    </line>
+    <line>
+      <![CDATA[No such element found with xpath //button[@data-testid='react-composer-post-button']
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Falcon-Sample-WIN_7_chrome_53" duration-ms="52753" started-at="2019-10-03T10:33:35Z" finished-at="2019-10-03T10:34:28Z">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="52753" started-at="2019-10-03T10:33:35Z" finished-at="2019-10-03T10:34:28Z">
+      <class name="com.qa.automation.falconUI.testscript.SampleTestScript">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.qa.automation.falconUI.testscript.SampleTestScript@416968ed]" name="preSetup" is-config="true" duration-ms="50" started-at="2019-10-03T16:03:35Z" finished-at="2019-10-03T16:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="sampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.automation.falconUI.testscript.SampleTestScript@416968ed]" name="sampleTest" duration-ms="52740" started-at="2019-10-03T16:03:35Z" finished-at="2019-10-03T16:04:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[53]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+            <line>
+              <![CDATA[Unable to locate Popup to switch [Ljava.lang.StackTraceElement;@498a153]]>
+            </line>
+            <line>
+              <![CDATA[No such element found with xpath //div[@id="js_1b"]]]>
+            </line>
+            <line>
+              <![CDATA[No such element found with xpath //div[@id="js_1b"]]]>
+            </line>
+            <line>
+              <![CDATA[No such element found with xpath //button[@data-testid='react-composer-post-button']
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.automation.falconUI.testscript.SampleTestScript@416968ed]" name="teardown" is-config="true" duration-ms="4145" started-at="2019-10-03T16:04:28Z" finished-at="2019-10-03T16:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.automation.falconUI.testscript.SampleTestScript -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+</testng-results>
